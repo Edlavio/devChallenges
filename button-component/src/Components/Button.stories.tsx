@@ -11,25 +11,61 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Default: Story = {
-  render: () => <Button text='Default' />
+  args: {
+    text: 'Default',
+    size: 'md',
+    color: 'default',
+    disabled: false,
+    disableShadow: false
+  }
 };
 
 export const Primary: Story = {
-  render: () => <Button color='primary' text='Primary' />
+  args: {
+    text: 'Primary',
+    size: 'md',
+    color: 'primary',
+    disabled: false,
+    disableShadow: false
+  }
 };
 
 export const Secondary: Story = {
-  render: () => <Button color='secondary' text='Secondary' />
+  args: {
+    text: 'Secondary',
+    size: 'md',
+    color: 'secondary',
+    disabled: false,
+    disableShadow: false
+  }
 };
 
 export const Danger: Story = {
-  render: () => <Button color='danger' text='Danger' />
+  args: {
+    text: 'Danger',
+    size: 'md',
+    color: 'danger',
+    disabled: false,
+    disableShadow: false
+  }
 };
 
 export const Outline: Story = {
-  render: () => <Button color='outline' text='Outline' />
+  args: {
+    text: 'Outline',
+    size: 'md',
+    color: 'outline',
+    disabled: false,
+    disableShadow: false
+  }
 };
 
 export const Text: Story = {
-  render: () => <Button color='text' text='Text' />
+  args: {
+    text: 'Text',
+    size: 'md',
+    color: 'text',
+    disabled: false,
+    disableShadow: false
+  }
 }

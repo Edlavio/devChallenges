@@ -111,8 +111,8 @@ const ButtonComponent = styled('button', {
         height: '42px'
       },
       xl: {
-        width: '120px',
-        height: '42px'
+        width: '140px',
+        height: '45px'
       }
     }
   }
