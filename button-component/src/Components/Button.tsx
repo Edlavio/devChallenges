@@ -12,8 +12,8 @@ export default function Button({
   text='Button', 
   color='default',
   size='md',
-  disableShadow, 
-  disabled 
+  disableShadow= false, 
+  disabled= false 
 }: buttonProps) {
   return (
     <ButtonComponent 
@@ -112,7 +112,7 @@ const ButtonComponent = styled('button', {
       },
       xl: {
         width: '140px',
-        height: '45px'
+        height: '46px'
       }
     }
   }
