@@ -38,7 +38,7 @@
 
 ## Overview
 
-![screenshot](./public/image.png)
+[![screenshot](./public/image.png)](https://edlavio-button-component.vercel.app/)
 
 ### Built With
 
